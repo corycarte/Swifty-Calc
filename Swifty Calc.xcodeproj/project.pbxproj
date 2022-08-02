@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F69FBBC288893E5005C9BF8 /* CalculatorLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F69FBBB288893E5005C9BF8 /* CalculatorLogic.swift */; };
 		8FBEA7792882E45100561E49 /* Swifty_CalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBEA7782882E45100561E49 /* Swifty_CalcApp.swift */; };
 		8FBEA77B2882E45100561E49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBEA77A2882E45100561E49 /* ContentView.swift */; };
 		8FBEA77D2882E45200561E49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBEA77C2882E45200561E49 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8F69FBBB288893E5005C9BF8 /* CalculatorLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLogic.swift; sourceTree = "<group>"; };
 		8FBEA7752882E45100561E49 /* Swifty Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swifty Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBEA7782882E45100561E49 /* Swifty_CalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swifty_CalcApp.swift; sourceTree = "<group>"; };
 		8FBEA77A2882E45100561E49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F69FBBA288893CE005C9BF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8F69FBBB288893E5005C9BF8 /* CalculatorLogic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8FBEA76C2882E45100561E49 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +104,9 @@
 		8FBEA7772882E45100561E49 /* Swifty Calc */ = {
 			isa = PBXGroup;
 			children = (
+				8F69FBBA288893CE005C9BF8 /* Model */,
 				8FBEA7782882E45100561E49 /* Swifty_CalcApp.swift */,
-				8FBEA77A2882E45100561E49 /* ContentView.swift */,
+				8FBEA7A52882E9CE00561E49 /* View */,
 				8FBEA77C2882E45200561E49 /* Assets.xcassets */,
 				8FBEA77E2882E45200561E49 /* Preview Content */,
 			);
@@ -125,6 +136,14 @@
 				8FBEA7952882E45200561E49 /* Swifty_CalcUITestsLaunchTests.swift */,
 			);
 			path = "Swifty CalcUITests";
+			sourceTree = "<group>";
+		};
+		8FBEA7A52882E9CE00561E49 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8FBEA77A2882E45100561E49 /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F69FBBC288893E5005C9BF8 /* CalculatorLogic.swift in Sources */,
 				8FBEA77B2882E45100561E49 /* ContentView.swift in Sources */,
 				8FBEA7792882E45100561E49 /* Swifty_CalcApp.swift in Sources */,
 			);
